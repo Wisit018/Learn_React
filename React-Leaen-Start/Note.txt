@@ -1,0 +1,8 @@
+// 1. install Nodejs V.(any)
+
+// 2. Check version Nodejs | nodejs -v
+
+// 3. เปลี่ยน Terminal || powershell --> Command prompt 
+
+// สร้างโปรเจกต์ React || npx crate-react-app <ชื่อโปรเจกต์>
+// cd <ชื่อโปรเจกต์> || npm start
