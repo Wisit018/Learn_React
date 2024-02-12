@@ -1,0 +1,46 @@
+.container{
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: black;
+    border-radius: 5px;
+}
+
+form{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+label{
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+input{
+    font-size: 18px;
+    padding: 7px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    flex-grow: 1;
+    margin: 10px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.btn-add{
+    font-size: 18px;
+    padding: 7px;
+    margin: 10px;
+    background: green;
+}
+
+select{
+    font-size: 18px;
+    padding: 7px;
+    margin: 10px;
+    border-radius: 5px;
+}

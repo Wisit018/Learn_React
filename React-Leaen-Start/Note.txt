@@ -15,3 +15,24 @@ function(trur){
     let 
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <li key={data.id}>
+              <h1>
+                {data.id} - {data.name}
+              </h1>
+              <button onClick={() => deleteStudent(data.id)} className="delete">
+                ลบ
+              </button>
+            </li>

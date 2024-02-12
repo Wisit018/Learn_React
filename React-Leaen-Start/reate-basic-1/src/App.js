@@ -1,32 +1,25 @@
+import Header from "./components/Header";
+import StudentList from "./components/StudentList";
 import { useState } from "react";
+import AddForm from "./components/AddForm";
+import "./App.css";
 
 function App() {
-  const [students, setStudents] = useState([
-    { id: 1, name: "AAA" },
-    { id: 2, name: "BBB" },
-    { id: 3, name: "CCC" },
-    { id: 4, name: "CCC" },
-  ]);
+  const [students, setStudents] = useState([  ]);
 
   function deleteStudent(id) {
-    console.log(id);
+    setStudents(students.filter((item) => item.id !== id));
   }
 
   //พื้นที่แสดงผล
   return (
-    <>
-      <h1>จำนวนนักเรียน : {students.length}</h1>
-      <ul>
-        {students.map((item) => (
-          <li key={item.id}>
-            <p>{item.id} - {item.name}</p>
-            <button onClick={()=>deleteStudent(item.id)}>ลบ</button>
-
-          </li>
-          
-        ))}
-      </ul>
-    </>
+    <div className="container">
+      <Header title="Home" />
+      <main>
+        <AddForm students={students} setStudents={setStudents} />
+        <StudentList students={students} deleteStudent={deleteStudent} />
+      </main>
+    </div>
   );
 }
 
