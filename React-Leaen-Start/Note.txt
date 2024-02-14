@@ -7,14 +7,8 @@
 // สร้างโปรเจกต์ React || npx crate-react-app <ชื่อโปรเจกต์>
 // cd <ชื่อโปรเจกต์> || npm start
 
-function 
-function
-function
-function(trur){
-    let name = ""
-    let 
-    
-}
+// ติดตั้ง React Router | react-router มีหลาย V.
+// npm install react-router-dom@6
 
 
 

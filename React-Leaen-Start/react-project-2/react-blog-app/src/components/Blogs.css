@@ -1,0 +1,8 @@
+.blogs-container{
+    width: 96%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.card{
+    color: #333;
+}

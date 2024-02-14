@@ -1,0 +1,14 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title{
+  color: #333;
+  text-align: center;
+}
+img{
+  width: 600px;
+  height: 600px;
+}
