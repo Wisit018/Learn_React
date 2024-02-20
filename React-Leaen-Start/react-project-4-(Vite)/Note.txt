@@ -1,0 +1,14 @@
+// สร้าง Project React แบบปกติ
+ npx create-react-app <Name-Project>
+
+// สร้าง Project React ด้วย Vite
+ npm create vite@latest <Name-Project>
+
+// Run Project
+- cd Project
+- npm install
+- npm run dev
+
+// Deploy
+- npm run build
+- File --> dist
